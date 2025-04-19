@@ -21,8 +21,6 @@ let nextOrderId: number = 1;
 function addNewPizza(pizzaObject: Pizza) {
     menu.push(pizzaObject)
 }
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
 /*
 Write a utility function called placeOrder that takes a pizza name as parameter, then finds that pizza i the menu array. If found, add the income to the cashInRegister variable. Add a new object to the OrderQueue array and  return the object
 */
